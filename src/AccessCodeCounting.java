@@ -36,7 +36,7 @@ public class AccessCodeCounting
         Assertions.assertEquals(expectedLuckyTripleCount, actualAnswer);
     }
     @Test
-    public void ShouldDoThis()
+    public void ShouldCountLuckyTriplesInListOfSixNumbers()
     {
         int[] accessCodes = {1,2,3,4,5,6};
         int expectedLuckyTripleCount = 3;
