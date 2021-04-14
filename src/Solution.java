@@ -9,7 +9,7 @@ public class Solution
             {
                 for(int k = j+1; k < accessCodes.length; k++)
                 {
-                    if(accessCodes[i] % accessCodes[j] == 0 && accessCodes[j] % accessCodes[k] == 0)
+                    if(accessCodes[j] %accessCodes[i] == 0 && accessCodes[k] %accessCodes[j]  == 0)
                         luckyTriples++;
                 }
             }
